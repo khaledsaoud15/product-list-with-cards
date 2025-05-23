@@ -28,7 +28,7 @@ const Cards = ({ products, addToCart }) => {
               </div>
             </div>
             <span className="text-gray-700">{product.category}</span>
-            <h3 className="text-xl font-bold leading-0">{product.name}</h3>
+            <h3 className="text-lg font-bold leading-0">{product.name}</h3>
             <span className="text-lg text-orange-700">
               ${product.price.toFixed(2)}
             </span>
